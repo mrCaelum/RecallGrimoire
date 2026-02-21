@@ -1,0 +1,56 @@
+{
+  "Interactions": [
+    {
+      "Type": "Charging",
+      "Effects": {
+        "ItemAnimationId": "CastHurlCharging",
+        "WorldSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge",
+        "WaitForAnimationToFinish": true
+      },
+      "HorizontalSpeedMultiplier": 0.8,
+      "Next": {
+        "0": {
+          "Type": "Chaining",
+          "HorizontalSpeedMultiplier": 0.8,
+          "Next": [
+            "Spellbook_Cast_Fail"
+          ],
+          "ChainingAllowance": 1.25
+        },
+        "1": {
+          "Type": "ApplyEffect",
+          "RunTime": 0.4,
+          "EffectId": "Recall_Teleport",
+          "Next": {
+            "Type": "Parallel",
+            "Interactions": [
+              {
+                "Interactions": [
+                  {
+                    "Type": "RecallTeleport"
+                  }
+                ]
+              },
+              {
+                "Interactions": [
+                  {
+                    "Type": "ModifyInventory",
+                    "AdjustHeldItemQuantity": -1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "CancelOnItemChange": true,
+      "FailOnDamage": true,
+      "CancelOnOtherClick": true,
+      "DisplayProgress": true
+    }
+  ],
+  "RequireNewClick": true,
+  "Cooldown": {
+    "Cooldown": 2
+  }
+}

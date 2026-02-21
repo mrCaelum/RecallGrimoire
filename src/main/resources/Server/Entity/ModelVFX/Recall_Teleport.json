@@ -1,0 +1,15 @@
+{
+  "HighlightColor": "#2becff",
+  "AnimationDuration": 0.3,
+  "SwitchTo": "Disappear",
+  "PostColor": "#010c0d",
+  "PostColorOpacity": 1,
+  "UseProgressiveHighlight": true,
+  "UseBloomOnHighlight": true,
+  "NoiseScale": {
+    "X": 25,
+    "Y": 20
+  },
+  "LoopOption": "PlayOnce",
+  "HighlightThickness": 5
+}

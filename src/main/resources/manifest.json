@@ -1,0 +1,17 @@
+{
+  "Group": "com.mrcaelum",
+  "Name": "RecallGrimoire",
+  "Version": "1.0.0",
+  "Description": "A Hytale mod to add a recall grimoire that teleports to the last spawn point",
+  "Authors": [
+    {
+      "Name": "mrCaelum",
+      "Email": "mrcaelum/contact@slmail.me"
+    }
+  ],
+  "Website": "https://www.curseforge.com/hytale/mods/recallgrimoire",
+  "Main": "com.mrcaelum.recallgrimoire.RecallGrimoirePlugin",
+  "ServerVersion": "2026.02.19-1a311a592",
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true
+}

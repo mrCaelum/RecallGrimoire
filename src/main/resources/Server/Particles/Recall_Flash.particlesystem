@@ -1,0 +1,23 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Portal_Activate_Glow",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 1,
+        "Z": -0.1
+      },
+      "StartDelay": 0.05
+    },
+    {
+      "SpawnerId": "Portal_Activate_Flash",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 1,
+        "Z": 0
+      },
+      "StartDelay": 0.05
+    }
+  ],
+  "BoundingRadius": 10
+}
