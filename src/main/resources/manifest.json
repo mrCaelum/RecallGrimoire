@@ -9,7 +9,7 @@
       "Email": "mrcaelum/contact@slmail.me"
     }
   ],
-  "Website": "https://www.curseforge.com/hytale/mods/recallgrimoire",
+  "Website": "https://www.curseforge.com/hytale/mods/recall-grimoire",
   "Main": "com.mrcaelum.recallgrimoire.RecallGrimoirePlugin",
   "ServerVersion": "2026.02.19-1a311a592",
   "DisabledByDefault": false,
