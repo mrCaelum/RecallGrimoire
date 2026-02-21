@@ -70,6 +70,6 @@
     ],
     "OutputQuantity": 1,
     "TimeSeconds": 5,
-    "RequiredMemoriesLevel": 5
+    "RequiredMemoriesLevel": 4
   }
 }
